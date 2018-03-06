@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TU AGENDA PERSONAL</string>
+    <string name="title_home">Agregar</string>
+    <string name="title_dashboard">Busqueda</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

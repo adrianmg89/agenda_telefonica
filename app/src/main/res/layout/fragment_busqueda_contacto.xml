@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.agenda2.BusquedaContacto">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/id_busqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/id_btn_buscar"
+        android:layout_toStartOf="@+id/id_btn_buscar"
+        android:ems="10"
+        android:hint="Contacto"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/id_btn_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/id_busqueda"
+        android:layout_alignBottom="@+id/id_busqueda"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Buscar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Busqueda contactos"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/id_lista_contactos"
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/id_btn_buscar" />
+
+</RelativeLayout>
